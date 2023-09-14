@@ -8,6 +8,19 @@ public class Deliverable {
     private String description;
     private String link;
 
+    public Phase getPhase() {
+        return phase;
+    }
+
+    public void setPhase(Phase phase) {
+        this.phase = phase;
+    }
+
+    private Phase phase;
+
+    public Deliverable() {
+    }
+
     public int getId() {
         return id;
     }

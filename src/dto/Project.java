@@ -10,6 +10,9 @@ public class Project {
     private double amount;
     private ProjectStatus status;
 
+    public Project() {
+    }
+
     public int getId() {
         return id;
     }
@@ -73,7 +76,6 @@ public class Project {
     public void setStatus(ProjectStatus status) {
         this.status = status;
     }
-
 
 
 }

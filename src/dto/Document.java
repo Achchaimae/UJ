@@ -4,6 +4,18 @@ public class Document {
     private  int id;
     private String name;
 
+    public Deliverable getDeliverable() {
+        return deliverable;
+    }
+
+    public void setDeliverable(Deliverable deliverable) {
+        this.deliverable = deliverable;
+    }
+
+    private Deliverable deliverable;
+    public Document() {
+    }
+
     public int getId() {
         return id;
     }

@@ -1,5 +1,7 @@
 package dto;
 
+import java.util.List;
+
 public class Phase {
     private int id;
     private String code;
@@ -10,6 +12,27 @@ public class Phase {
     private boolean status;
     private boolean billed;
     private boolean payed;
+    private List<Worker> workers;
+    public List<Worker> getWorkers() {
+        return workers;
+    }
+
+    public void setWorkers(List<Worker> workers) {
+        this.workers = workers;
+    }
+
+
+    public Project getProject() {
+        return project;
+    }
+
+    public void setProject(Project project) {
+        this.project = project;
+    }
+
+    private Project project;
+    public Phase() {
+    }
 
     public int getId() {
         return id;
