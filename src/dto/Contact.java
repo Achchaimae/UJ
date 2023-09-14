@@ -6,6 +6,11 @@ public class Contact {
     private String contactName;
     private String contactEmail;
 
+    private Client client;
+
+    public Contact() {
+    }
+
     public int getId() {
         return id;
     }

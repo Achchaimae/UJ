@@ -7,6 +7,9 @@ public class Client {
     private String name;
     private String address;
 
+    public Client() {
+    }
+
     public int getId() {
         return id;
     }
