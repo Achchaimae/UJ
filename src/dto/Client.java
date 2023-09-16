@@ -2,43 +2,31 @@ package dto;
 
 public class Client {
 
-    private int id;
-    private String code;
-    private String name;
-    private String address;
+    private int clientID;
+    private String Fname;
+    private String Lname;
 
-    public Client() {
+    public int getClientID() {
+        return clientID;
     }
 
-    public int getId() {
-        return id;
+    public void setClientID(int clientID) {
+        this.clientID = clientID;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public String getFname() {
+        return Fname;
     }
 
-    public String getCode() {
-        return code;
+    public void setFname(String fname) {
+        Fname = fname;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public String getLname() {
+        return Lname;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    public void setLname(String lname) {
+        Lname = lname;
     }
 }
